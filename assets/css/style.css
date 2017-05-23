@@ -42,7 +42,7 @@ body {
 }
 
 .top-margin {
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 .img-div {
@@ -75,4 +75,21 @@ h2 {
 	font-size: 48px;
 	font-family: Arial;
 	color: white;
+}
+
+@media only screen and (max-width : 768px) {
+	.stat-box {
+		width: 100%;
+
+	}
+
+	.gems {
+		width: 100px;
+		height: 120px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
 }
