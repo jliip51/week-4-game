@@ -11,21 +11,59 @@
 
 <body>
 
+	<div class="container">
+		<div class="row row-color">		
+			<h1 class="text-center" id="name">Crystal Collector</h1>
 
+		</div>
 
+		<div class="row top-margin start-div">
+			<h2>How To Play:</h2>
+			<br>
+			<p>
+				> You will be given a random target score at the beginning of the game.<br><br>
+				> There are four different color crystals. By clicking on any of the four crystals you will add a random amount to your current score.<br><br>
+				> The value of each crystal is hidden from you until you click it and it will change each game.<br><br>
+				> You win the game by matching your score to the target score. If you go over the target score you lose.<br><br>
+				> The values of each crystal will change each time a new round starts.
+			</p>
+			<br><br>
+			<button type="button" class="btn btn-primary btn-lg center-block start-btn">Start Collecting</button>
+		</div>	
 
+		<div class="row top-margin">
+			<div class="stat-box lft-float">
+				<h2 class="text-center">Target Score:<br><span id="target">0</span></h2>
+			</div>
 
+			<div class="stat-box rgt-float">
+				<h2 class="text-center">Current Score:<br><span id="score">0</span></h2>
+			</div>
+		</div>	
 
+		<div class="row top-margin">
+			<div class="img-div text-center">
+				<img class="gems" id="blue-gem" src="assets/images/BlueGem.png" alt="blue gem">
+				<img class="gems" id="green-gem" src="assets/images/GreenGem.png" alt="green gem">
+				<img class="gems" id="pink-gem" src="assets/images/PinkGem.png" alt="pink gem">
+				<img class="gems" id="yellow-gem" src="assets/images/YellowGem.png" alt="yellow gem">
+			</div>
+		</div>
 
+		<div class="row top-margin">
+			<div class="stat-box lft-float">
+				<h2 class="text-center"># of Wins:<br><span id="wins">0</span></h2>
+			</div>
 
+			<div class="stat-box rgt-float">
+				<h2 class="text-center"># of Losses:<br><span id="losses">0</span></h2>
+			</div>
+		</div>
+	</div>
 
-
-
-
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 </body>
 
